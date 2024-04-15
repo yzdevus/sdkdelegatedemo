@@ -1,0 +1,23 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.9.2 (swiftlang-5.9.2.2.56 clang-1500.1.0.2.5)
+// swift-module-flags: -target x86_64-apple-ios17.2-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -Onone -module-name AdditionSDK
+// swift-module-flags-ignorable: -enable-bare-slash-regex
+@_exported import AdditionSDK
+import Foundation
+import Swift
+import _Concurrency
+import _StringProcessing
+import _SwiftConcurrencyShims
+@_hasMissingDesignatedInitializers public class AdditionUtils {
+  public static func add(num1: Swift.Int, num2: Swift.Int) -> Swift.Int
+  @objc deinit
+}
+public protocol AdditionSDKDelegate : AnyObject {
+  func sdkRequestsLog(_ message: Swift.String)
+}
+public class AdditionSDK {
+  weak public var delegate: (any AdditionSDK.AdditionSDKDelegate)?
+  public init()
+  public func start()
+  @objc deinit
+}

@@ -1,0 +1,16 @@
+PODS:
+  - AdditionSDK (1.0.0)
+
+DEPENDENCIES:
+  - AdditionSDK (from `../AdditionSDK`)
+
+EXTERNAL SOURCES:
+  AdditionSDK:
+    :path: "../AdditionSDK"
+
+SPEC CHECKSUMS:
+  AdditionSDK: 701bb77ab1151bb49d9a5eb31a4e0606c3173eaa
+
+PODFILE CHECKSUM: 9deb84233aecdc8801c8c8fceb64ee42cc9a5229
+
+COCOAPODS: 1.15.2

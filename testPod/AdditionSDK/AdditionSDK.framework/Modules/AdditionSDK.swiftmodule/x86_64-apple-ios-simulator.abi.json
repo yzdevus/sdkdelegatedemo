@@ -1,0 +1,298 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AdditionSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "AdditionUtils",
+        "printedName": "AdditionUtils",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "add",
+            "printedName": "add(num1:num2:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11AdditionSDK0A5UtilsC3add4num14num2S2i_SitFZ",
+            "mangledName": "$s11AdditionSDK0A5UtilsC3add4num14num2S2i_SitFZ",
+            "moduleName": "AdditionSDK",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "AdditionUtils",
+                "printedName": "AdditionSDK.AdditionUtils",
+                "usr": "s:11AdditionSDK0A5UtilsC"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:11AdditionSDK0A5UtilsCACycfc",
+            "mangledName": "$s11AdditionSDK0A5UtilsCACycfc",
+            "moduleName": "AdditionSDK",
+            "implicit": true,
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:11AdditionSDK0A5UtilsC",
+        "mangledName": "$s11AdditionSDK0A5UtilsC",
+        "moduleName": "AdditionSDK",
+        "isOpen": true,
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "hasMissingDesignatedInitializers": true
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "AdditionSDKDelegate",
+        "printedName": "AdditionSDKDelegate",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "sdkRequestsLog",
+            "printedName": "sdkRequestsLog(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11AdditionSDK0A11SDKDelegateP14sdkRequestsLogyySSF",
+            "mangledName": "$s11AdditionSDK0A11SDKDelegateP14sdkRequestsLogyySSF",
+            "moduleName": "AdditionSDK",
+            "genericSig": "<τ_0_0 where τ_0_0 : AdditionSDK.AdditionSDKDelegate>",
+            "sugared_genericSig": "<Self where Self : AdditionSDK.AdditionSDKDelegate>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:11AdditionSDK0A11SDKDelegateP",
+        "mangledName": "$s11AdditionSDK0A11SDKDelegateP",
+        "moduleName": "AdditionSDK",
+        "genericSig": "<τ_0_0 : AnyObject>",
+        "sugared_genericSig": "<Self : AnyObject>",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "AdditionSDK",
+        "printedName": "AdditionSDK",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "delegate",
+            "printedName": "delegate",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "WeakStorage",
+                "printedName": "AdditionSDK.AdditionSDKDelegate?"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:11AdditionSDKAAC8delegateAA0A11SDKDelegate_pSgvp",
+            "mangledName": "$s11AdditionSDKAAC8delegateAA0A11SDKDelegate_pSgvp",
+            "moduleName": "AdditionSDK",
+            "isOpen": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "ReferenceOwnership",
+              "AccessControl"
+            ],
+            "ownership": 1,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "AdditionSDK.AdditionSDKDelegate?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "AdditionSDKDelegate",
+                        "printedName": "AdditionSDK.AdditionSDKDelegate",
+                        "usr": "s:11AdditionSDK0A11SDKDelegateP"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11AdditionSDKAAC8delegateAA0A11SDKDelegate_pSgvg",
+                "mangledName": "$s11AdditionSDKAAC8delegateAA0A11SDKDelegate_pSgvg",
+                "moduleName": "AdditionSDK",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "AdditionSDK.AdditionSDKDelegate?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "AdditionSDKDelegate",
+                        "printedName": "AdditionSDK.AdditionSDKDelegate",
+                        "usr": "s:11AdditionSDK0A11SDKDelegateP"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11AdditionSDKAAC8delegateAA0A11SDKDelegate_pSgvs",
+                "mangledName": "$s11AdditionSDKAAC8delegateAA0A11SDKDelegate_pSgvs",
+                "moduleName": "AdditionSDK",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11AdditionSDKAAC8delegateAA0A11SDKDelegate_pSgvM",
+                "mangledName": "$s11AdditionSDKAAC8delegateAA0A11SDKDelegate_pSgvM",
+                "moduleName": "AdditionSDK",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "AdditionSDK",
+                "printedName": "AdditionSDK.AdditionSDK",
+                "usr": "s:11AdditionSDKAAC"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:11AdditionSDKAACABycfc",
+            "mangledName": "$s11AdditionSDKAACABycfc",
+            "moduleName": "AdditionSDK",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "start",
+            "printedName": "start()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11AdditionSDKAAC5startyyF",
+            "mangledName": "$s11AdditionSDKAAC5startyyF",
+            "moduleName": "AdditionSDK",
+            "isOpen": true,
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:11AdditionSDKAAC",
+        "mangledName": "$s11AdditionSDKAAC",
+        "moduleName": "AdditionSDK",
+        "isOpen": true,
+        "declAttributes": [
+          "AccessControl"
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": []
+}

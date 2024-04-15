@@ -1,0 +1,25 @@
+{
+  "name": "AdditionSDK",
+  "version": "1.0.0",
+  "summary": "A precompiled framework for iOS providing additional functionalities.",
+  "description": "AdditionSDK is a precompiled framework for iOS that offers enhanced features\nfor applications, improving their capabilities and performance.",
+  "homepage": "https://github.com/yzdevus",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Y": "yzdevus@gmail.com"
+  },
+  "platforms": {
+    "ios": "12.0"
+  },
+  "source": {
+    "path": "AdditionSDK.framework"
+  },
+  "vendored_frameworks": "AdditionSDK.framework",
+  "frameworks": [
+    "UIKit",
+    "Foundation"
+  ]
+}
